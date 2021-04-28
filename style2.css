@@ -27,9 +27,10 @@
   visibility: hidden;
 }
 body {
-	background: url('assets/img/balloons.jpg');
-	background-size: cover;
+	/*background: url('assets/img/balloons.jpg');*/
+	/*background-size: cover;*/
 	/*opacity: 0.5;*/
+	background-color: #B4A6D7;
 }
 #homeButton {
   width: 200px;
