@@ -1,0 +1,85 @@
+#carousel,
+.carousel-image {
+  width: 400px;
+  height: 700px;
+  padding-bottom: 20px;
+}
+#carousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+
+}
+#carousel-image-row {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0px;
+  transition: 0.5s left;
+}
+.carousel-image img {
+  height: 400px;
+  width: auto;
+}
+.hidden {
+  visibility: hidden;
+}
+body {
+	background: url('assets/img/balloons2.jpg');
+	background-size: cover;
+	/*opacity: 0.5;*/
+}
+#homeButton {
+  width: 200px;
+ /* margin: auto;*/
+  font-family: 'Sacramento', cursive;
+  color: #67523e;
+  padding: 10px 18px;
+  border-radius: 21px;
+  white-space: nowrap;
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+  /*margin-top: 30%*/;
+  background-color: #F9E3D5;
+  font-size: 36px;
+  text-decoration: none;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+}
+a {
+	color: #67523e;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #67523e;
+}
+#homeButton:hover {
+	background-color: #DBD6ED;
+}
+p {
+	position: relative;
+	z-index: 50;
+	color: black;
+	font-size: 18px;
+	background-color: white;
+	padding: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	font-family: serif;
+}
+
+.label{
+	color: black;
+	font-family: serif;
+	font-size: 35px;
+	background-color: #F9E3D5;
+	padding: 10px;
+	text-align: center;
+}
